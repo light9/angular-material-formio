@@ -1,7 +1,7 @@
 import { Component, Optional, ChangeDetectorRef, ViewContainerRef, ViewChild, ComponentFactoryResolver, NgZone } from '@angular/core';
-import { FormioBaseComponent } from 'angular-formio/FormioBaseComponent';
-import { FormioLoader } from 'angular-formio/components/loader/formio.loader';
-import { FormioAppConfig } from 'angular-formio/formio.config';
+import { FormioBaseComponent } from './angular-formio/FormioBaseComponent';
+import { FormioLoader } from './angular-formio/components/loader/formio.loader';
+import { FormioAppConfig } from './angular-formio/formio.config';
 import { Form } from './renderer';
 import { get } from 'lodash';
 @Component({

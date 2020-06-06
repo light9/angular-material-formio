@@ -58,7 +58,7 @@ import { MaterialEditGridComponent } from './components/editgrid/editgrid.compon
 import { MaterialWellComponent } from './components/well/well.component';
 import { MaterialWizardComponent } from './components/formio.wizard';
 import { MaterialTimeComponent } from './components/time/time.component';
-import { FormioLoader } from 'angular-formio/components/loader/formio.loader';
+import { FormioLoader } from './angular-formio/components/loader/formio.loader';
 import {MaterialCalendarComponent} from "./components/calendar/calendar.component";
 import {DragDropModule} from "@angular/cdk/drag-drop";
 export {
