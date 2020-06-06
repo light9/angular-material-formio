@@ -1,0 +1,32 @@
+{
+  "variables": {
+    "ANGULAR_PACKAGES_FOLDER": "{{{ENV:ANGULAR_PATH}}}/angular-9",
+    "ANGULAR_BUILD_PACKAGES_FOLDER": "{{{ENV:ANGULAR_PATH}}}/angular-9"
+  },
+  "puzzles": {
+    "name": "colaboflow-demo",
+    "description": "An app containing majority of the ColaboFlow Puzzles and used to demnstrate ColaboFlow features",
+    "sudo": {
+      "offer": false,
+      "install": false,
+      "build": false,
+      "symlinks": false
+    },
+    "environment": {
+      "os": "linux"
+    },
+    "dependencies": {
+    },
+    "offers": {}
+  },
+  "symlinks": [
+    {
+      "from": "{{{ANGULAR_PACKAGES_FOLDER}}}/node_modules/@angular",
+      "to": "node_modules/@angular"
+    },
+    {
+      "from": "{{{ANGULAR_BUILD_PACKAGES_FOLDER}}}/node_modules/@angular-devkit",
+      "to": "node_modules/@angular-devkit"
+    }
+  ]
+}
